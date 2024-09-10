@@ -71,7 +71,7 @@ Before installation fetch the repository via
 git clone git@github.com:PaulWorm/DGApy.git
 ```
 
-We recomment to use [anaconda](https://www.anaconda.com/) for managing your python environments. To create a new conda
+We recommend to use [anaconda](https://www.anaconda.com/) for managing your python environments. To create a new conda
 environment use
 
 ```
@@ -116,7 +116,7 @@ The package is split into several modules. Here we list the most common ones:
 - brillouin_zone (bz): handle the Brillouin zone, mapping into the irreducible BZ and mapping to k-paths
 - wannier: handle the tight-binding Hamiltonian and fourier transformation from real to reciprocal space
 - two_point (twop): classes for the one-particle Green's function and self-energy
-- local_four_point (lfp): handle local (impurity) four-poin functions
+- local_four_point (lfp): handle local (impurity) four-point functions
 - four_point (fp): handle non-local (ladder) four-point functions
 - analytic_continuation (ac): perform the numeric analytic continuation
     - based on the [ana_cont](https://github.com/josefkaufmann/ana_cont) package
